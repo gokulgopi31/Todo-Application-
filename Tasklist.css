@@ -1,0 +1,100 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Task container */
+.task-container {
+    max-width: 600px;
+    margin: 10px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-in{
+    max-width: 600px;
+    margin: 50px auto;
+    margin-bottom: 20px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    justify-content: space-between;
+}
+
+.input-box{
+    width: 500px;
+    padding: 5px;
+    border: 1px solid #ddd;
+}
+.sub{
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    margin: 0px 5px;
+    background-color: black;
+    color: white;
+}
+
+h1{
+    text-align: center;
+}
+
+/* Task list */
+.task-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Task item */
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: #f9f9f9;
+    transition: background-color 0.3s ease;
+}
+
+.task.completed {
+    background: #e6ffe6;
+    text-decoration: line-through;
+}
+
+.buttons{
+    justify-content: space-between;
+}
+
+/* Task buttons */
+.status-btn {
+    background: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin: 0px 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.status-btn:hover {
+    background: #45a049;
+}
+
+.delete-btn {
+    background: red;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
